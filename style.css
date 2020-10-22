@@ -1,0 +1,457 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	margin: 0;
+	display: flex;
+}
+.center{
+	width: 70%;
+}
+
+.left {
+	float: left;
+	width: 15%;
+}
+.right {
+	float: right;
+	width: 15%;
+}
+header {
+	font-family: 'Proxima Nova Light';
+	width: 100%;
+	background: white;
+	display: flex;
+	font-size: 14px;
+}
+body {
+	font-family: 'Proxima Nova Regular';
+}
+a {
+	text-decoration: none;
+}
+
+.phone {
+	margin-top: 22.5px;
+	color: black;
+	font-weight: bold; 
+	cursor: pointer;
+
+}
+.menu {	
+	margin-top: 20px;
+	
+}
+.menu li {
+ display: inline;
+}
+.menu a {
+	font-size: 17px;
+	color: black;
+	padding-left: 9px;
+}
+.phoneB {
+	border-radius: 5px;
+	 border: 0;
+	 color: white;
+	 background: #BA0F0F;
+	 height: 30px;
+	 margin-top: 10px;
+	 margin-left: 30px;
+	 width: 120px;
+	 background-image: -moz-linear-gradient( 69deg, rgb(193,23,23) 0%, rgb(228,38,38) 100%);
+  background-image: -webkit-linear-gradient( 69deg, rgb(193,23,23) 0%, rgb(228,38,38) 100%);
+  background-image: -ms-linear-gradient( 69deg, rgb(193,23,23) 0%, rgb(228,38,38) 100%);
+}
+.secondHeader {
+	display: flex;
+}
+#logo {
+	width: 40px;
+	height: 40px;
+	margin-top: 35px;
+}
+
+.brand {
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 25px;
+    
+}
+
+#textVisit {
+	margin-top: 45px;
+    margin-left: 125px;
+    font-size: 17px;
+}
+.secondHeader a {
+	color: black;
+	font-size: 17px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.fa {
+	border: 1px solid red;
+	border-width: 1px;
+  	border-color: rgb(228, 38, 38);
+  	border-style: solid;
+  	border-radius: 5px;
+	padding: 11px;
+    margin-top: 30px;
+    
+	}
+
+.android {
+	margin-left: 30px;
+}
+.apple {
+	margin-left: 10px;
+}
+
+.second {
+	margin-top: 20px;
+	height: 610px;
+	background-image: url(image/background.png);
+	background-size: 120% 100%;
+}
+.yearAbon {
+	font-family: "ProximaNova";
+	font-size: 32px;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 1.563;
+  	text-align: left;
+  	margin-top: 130px;
+}
+
+.price {
+	font-size: 24px;
+	line-height: 1.333;
+	color: white;
+	margin-top: 65px;
+}
+.direct	{
+	font-weight: bold;
+	border: 0px;
+	margin-top: 70px;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px;
+	width: 299px;
+  	height: 65px;
+  background-image: -moz-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+}
+.third {
+	height: 630px;
+}
+.blockTittle {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 100px;
+	 line-height: 1.2;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.service {
+	display: inherit;
+	font-size: 16px;
+	margin:80px 5px 0;
+	flex:1 1 calc(33.33% - 30px);
+	justify-content: start;
+	align-items: center;
+}
+
+.service a {
+	color: black;
+	position: absolute;
+	margin-left: 20px;
+	line-height: 1.375;
+}
+.service a:hover {
+color: red;
+}
+.sImage {
+	margin-left: 50px;
+}
+.one {
+	left: 300px;
+    top: 960px;
+}
+.two {
+	left: 615px;
+	top: 960px;
+}
+.three {
+	left: 925px;
+	top: 960px;
+}
+.four{
+	left: 300px;
+	top: 1088px;
+}
+.five {
+	left: 615px;
+	top: 1088px;
+}
+.six {
+	left: 925px;
+	top: 1088px;
+}
+.seven {
+	left: 300px;
+	top: 1216px;
+}
+.eight {
+	left: 615px;
+	top: 1216px;
+} 
+.nine {
+	left: 925px;
+	top: 1216px;
+}
+
+.fourth {
+	color: white;
+	height: 570px;
+	background-image: url(image/back2.jpg);
+	background-size: 100% 100%;
+}
+
+.text_1{
+	text-align: center;
+	line-height: 1.25;
+}
+
+.wrap {
+	margin-top: 80px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+
+}
+.static {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	line-height: 1.375;
+}
+.numb {
+	font-size: 48px;
+	margin-bottom: 25px;
+
+}
+.fifth {
+	height: 500px;
+	background-image: url(image/back3.png);
+	background-size: 100% 100%;
+}
+
+.howService{
+	margin-top: 80px;
+	justify-content: space-around;
+	display: flex;
+}
+.hs {
+	width: 100px;
+	height: 80px;
+}
+.hsText {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 60px;
+    margin-right: 45px;
+    line-height: 1.375;
+}
+.sixth {
+	height: 645px;
+}
+.wrap2 {
+	display: flex;
+	margin-top: 85px;
+	height: 300px;
+	justify-content: space-around;
+}
+.client ul {
+	position: absolute;
+	margin-top: 40px;
+}
+.client li {
+    list-style-type: none; /* Убираем маркеры */
+	line-height: 49px;  
+   }
+ .tb {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	width: 200px;
+ }
+ .table2 {
+ 	background-color: #26B83A;
+ 	text-align: center;
+ 	color: white;
+ } 
+
+ .table3 {
+ 	text-align: center;
+ }
+ .table1 {
+ 	text-align: end;
+ }
+ .table1 p {
+ 	margin-right: 30px;
+ }
+
+ .client {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	flex-direction: column;
+ 	margin-left: 40px;
+ }
+ .client img {
+ 	padding-right: 20px;
+ }
+
+ .seventh {
+ 	height: 450px;
+ 	background-image: url(image/back4.png);
+ 	background-size: 100% 100%;
+ }
+ .freeTittle {
+ 	margin-top: 100px;
+ 	line-height: 1.2;
+ 	color: white;
+ }
+.seventh ul {
+	margin-top: 80px;
+}
+.seventh li {
+ 	list-style-type: none;
+ 	height: 30px;
+ 	color: white;
+ }
+ .seventh span {
+ 	color: #F11111;
+ 	padding-right: 20px;
+ }
+.imgApp1 {
+	position: absolute;
+    left: 900px;
+    margin-top: -80px;
+}
+.imgApp2 {
+	position: absolute;
+    left: 900px;
+    margin-top: -200px;
+}
+.eighth {
+	height: 450px;
+}
+.partners {
+	display: flex;
+	margin-top: 90px;
+}
+
+.ninth {
+	background-color: #F5F5F5;
+}
+
+#name {
+	width: 300px;
+	height: 40px;
+}
+#number {
+	width: 300px;
+	height: 40px;
+}
+#message {
+	width: 300px;
+	height: 70px;
+}
+#book {
+	font-weight: bold;
+	border: 0px;
+	margin-top: 25px;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px;
+	width: 300px;
+  	height: 65px;
+  background-image: -moz-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+}
+.end {
+	display: flex;
+}
+.form {
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+.contacts {
+	margin-left: 80px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.rightEnd {
+	background-color: #FFFFFF;
+}
+.TextContact {
+	margin-top: 100px;
+	margin-left: 160px;
+}
+.TextContact h2 {
+	margin-bottom: 70px;
+}
+footer {
+	height: 120px;
+	background-color: #0E0E0E;
+}
+#logoF {
+	margin-left: 140px;
+	margin-top: 40px;
+}
+.developer {
+	position: absolute;
+	color: white;
+	margin-top: 53px;
+	left: 900px;
+}
+
+#developer {
+	position: absolute;
+	left: 1050px;
+	margin-top: 25px;
+}
+@font-face {
+font-family: 'Proxima Nova Light';
+src: url('ProximaNova/ProximaNova-Light.eot');
+src: url('ProximaNova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+url('ProximaNova/ProximaNova-Light.woff') format('woff'),
+url('ProximaNova/ProximaNova-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'ProximaNova/Proxima Nova Regular';
+src: url('ProximaNova/ProximaNova-Regular.eot');
+src: url('ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+url('ProximaNova/ProximaNova-Regular.woff') format('woff'),
+url('ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
